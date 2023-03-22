@@ -64,9 +64,8 @@ export default function QuestionPage() {
             <br/>
             <br/>
             <br/>
-            <br/>
-            <h2>{q.id}/20</h2>
-            <h2 className=''> {q.question} </h2>
+            <h2 className='white-font'>{q.id}/20</h2>
+            <h2 className='white-font'> {q.question} </h2>
             <button className="answer-button" onClick={() => nextQuestion(q.id, q.answer1[1])}> {q.answer1[0]} </button>
             <br></br>
             <br></br>

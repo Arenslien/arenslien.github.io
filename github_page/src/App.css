@@ -10,16 +10,22 @@
 html, body {
   height: 100%;
   font-family: 'nanumsquare';
-  background-color: cadetblue;
+  background-color: rgb(250, 145, 167);
   overflow-x: hidden;
   /* overflow: hidden; */
 }
 
 .full-box {
-  background-color: cadetblue;
+  background-color: rgb(250, 145, 167);
   width: 100%;
   min-height: 200px;
 }
+
+.white-font {
+  color: white;
+  font-size:2.4em;
+}
+
 
 #list-view-wrapper {
   position: relative;
@@ -27,7 +33,7 @@ html, body {
   height: 0;
   overflow: hidden;
   padding-bottom: 110%;
-  background-color:cadetblue
+  background-color:rgb(250, 145, 167)
 }
 
 #list-view-wrapper .wrap {
@@ -50,7 +56,7 @@ html, body {
 
 .start-button {
   background: white;
-  width: 510px;
+  width: 610px;
   height: 60px;
   border-radius: 7px;
   font-size: 20px;
